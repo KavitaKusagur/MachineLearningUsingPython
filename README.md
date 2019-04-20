@@ -21,7 +21,7 @@ ___
 - The Olympic Games are considered the world's foremost sports competition with more than 200 nations participating. 
 - A historical dataset on the modern Olympic Games, including all the Games from Athens 1896 to Rio 2016.
 - An effort to perform Exploratory Data Analysis (EDA) which helps in explore the evolution of these sports, since the beggining in Athens 1896, when the first games were held, till Rio 2016, the latest ones. To Visualize, how the Olympic Games have developed over the years, changing participation trends, physical winning characteristics, geographic participation trends, special cases of interest, et al.
-- [Link for the Jupyter notebook](./OlympicsHistory/120YearsOfOlympicsHistory_EDA.ipynb)
+- [Link for the Jupyter notebook](./120YearsOfOlympicsHistory/120YearsOfOlympicsHistory_EDA.ipynb)
 
 
 ___
