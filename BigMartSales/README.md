@@ -1,5 +1,6 @@
 # Big Mart Sales Prediction
-![image.jpg](images/big_mart_sales1.jpg)
+![image.jpg](images/big_mart_sales1.jpg,width=400, height=200)
+
 ## Introduction
 With the rapid development of global malls and stores chains and the increase in the number of electronic payment
 customers, the competition among the rival organizations is becoming more serious day by day. Each organization is trying to
@@ -10,40 +11,26 @@ purpose. Here, we are providing forecast for the sales data of big mart in a num
 location types which is based on the historical data of sales volume. According to the characteristics of the data, we can use the
 method of multiple linear regression analysis and random forest to forecast the sales volume.
 
-
-
+- The aim is to build a predictive model and find out the sales of each product at a particular store.
+- Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales.
 
 ## Methodology involved in solving the problem
 Raw data collected at big mart would be pre-processed for missing data, anomalies and outliers. Then an algorithm would be trained on this data to create a model. This model would be used for forecasting the final results.
 Data preprocessing is a data mining technique used to transform sample raw data into an understandable format. Real world collected data may be inconsistent, incomplete or contains an error and hence data preprocessing is required.
-Big mart’s data scientists collected sales data for the year 2013 of 1559 products across 10 stores in different cities.
+- Big mart’s data scientists collected sales data for the year 2013 of 1559 products across 10 stores in different cities.
 Also, they provided definitions for certain attributes of each product and store. They are as follows :
 
-1. Item_Identifier - Unique identifier for each product.
-2. Item_Weight – Product weight.
-3. Item_Fat_Content – Fat content of the product.
-4. Item_Visibility – Percentage of total display area in a store allocated to the product.
-5. Item_Type – Product category.
-6. Item_MRP – List price of the product.
-7. Outlet_Identifier - Unique identifier for each store..
-8. Outlet_Establishment_Year – Establishment year for each store.
-9. Outlet_Size - The size of the store.
-10.Outlet_Location_Type - The type of city in which the store is located.
-11.Outlet_Type - Whether the store is a grocery store or a supermarket.
-12.Item_Outlet_Sales - Sales of the product in each store.
-
-- The aim is to build a predictive model and find out the sales of each product at a particular store.
-- Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales.
-
+![image.png](images/bigmartsalesdatadescr.png)
 
 
 ## Data
+- This dataset contains 8523 observations and 12 features.
+
 ![image.jpg](images/bmsalesdata.png)
 
-- This dataset contains 8523 observations and 12 features.
 - The dataset contains sales data for the year 2013 of 1559 products across 10 stores in different cities.
-- It was my belief that from this first look at the data, the variables that will have higher impact on the product’s sale price are: Item_Visibility , Item_Type , OutletSize , Outlet_Location_Type , Outlet_Type .
-- The target variable is Item_Outlet_Sales .
+- It was my belief that from this first look at the data, the variables that will have higher impact on the product’s sale price are: __Item_Visibility , Item_Type , OutletSize , Outlet_Location_Type , Outlet_Type__.
+- The target variable is __Item_Outlet_Sales__.
 
 
 ## Regression Problem
@@ -94,4 +81,4 @@ __Promotional Offers:__ Products accompanied with attractive offers and discount
 
 ## Conclusion 
 
-- After implementing the ML algorithm’s, Random Forest model with Accuracy = 94% and RMSE=415 performed better which got me in the first 25%.
+- After implementing the ML algorithm’s, __Random Forest model with Accuracy = 94% and RMSE=415 performed better__ which got me in the first 25%.
