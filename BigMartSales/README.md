@@ -1,5 +1,5 @@
 # Big Mart Sales Prediction
-![image.jpg](images/big_mart_sales1.jpg,width=400, height=200)
+![image.jpg](images/big_mart_sales1.jpg)
 
 ## Introduction
 With the rapid development of global malls and stores chains and the increase in the number of electronic payment
