@@ -31,7 +31,7 @@ ___
 - The data scientists at __Big Mart__ have collected __2013 sales data for 1559 products across 10 stores in different cities__. Also, certain attributes of each product and store have been defined. 
 - The aim is to build a predictive model and find out the sales of each product at a particular store. Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales. 
 
-- [Link for the Jupyter notebook](./BigMartSales/Big_Mart_Sales_Prediction.ipynb)
+- [Link for the Jupyter notebook](./BigMartSales/BigMartSalesPrediction.ipynb)
 
 
 ___
