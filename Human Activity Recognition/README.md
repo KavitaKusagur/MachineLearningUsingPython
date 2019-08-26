@@ -34,8 +34,6 @@ Dataset:
 ----------
 The dataset can be downloaded from https://www.kaggle.com/uciml/human-activity-recognition-with-smartphones# 
 
-dataset is also included in the Repository with in the folder UCIML_HAR_Dataset 
-
 Human Activity Recognition database is built from the recordings of 30 persons performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors(accelerometer and Gyroscope). 
 
 **Activities**
@@ -86,9 +84,8 @@ Readings are divided into a window of 2.56 seconds with 50% overlapping.
 * All the data is present in 'UCIML_HAR_dataset/' folder in present working directory.
   - Feature names are present in 'UCIML_HAR_dataset/features.txt'
   - __Train Data__ (7352 readings)
-    - 'UCIML_HAR_dataset/train.csv'
   - __Test Data__ (2947 readinds)
-    - 'UCIML_HAR_dataset/test.csv'
+    
 ------------------------------------------
 
 Analysis
