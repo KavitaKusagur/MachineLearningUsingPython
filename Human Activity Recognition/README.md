@@ -94,7 +94,7 @@ Readings are divided into a window of 2.56 seconds with 50% overlapping.
 Analysis
 -----------
 
-For detailed code of this section you can always check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/edit/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb)
+For detailed code of this section you can always check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb)
 <br>
 ##### Check for Imbalanced class
 if some class have too little or too large numbers of values compared to rest of the classes than the dataset is imbalanced.
@@ -114,12 +114,12 @@ On the y-axis we have amount of data for each activity by provided by each subje
 From Plot-1 & Plot-2, we can see, our data is equally distributed (almost well Balanced). 
 <br><br>
 #### Variable analysis
-**Plot-3 **
+**Plot-3**
 <br>
 <img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot2_2.png">
 The above plot is of tBodyAccMagmean which is mean values of magnitude of acceleration in time space. 
 <br><br>
-**Plot-4 **
+**Plot-4**
 <br>
 Box plot, mean of magnitude of an acceleration 
 <br>
@@ -127,7 +127,7 @@ Box plot, mean of magnitude of an acceleration
 <br><br>
 From plot-3 and plot-4 we can see that stationary activities can be linearly separated from activities with motion. 
 <br><br>
-**Plot-5 **
+**Plot-5**
 <br>
 
 Dimensionality reduction using T-distributed Stochastic Neighbor Embedding (t-SNE) to visualize 561 dimension dataset. 
@@ -193,7 +193,7 @@ Again row corresponding to 'sitting' has value of only 0.87. In the row 2nd row 
 <br>
 It is not a surprise as in the t-sne plot (plot-5) we saw that 'sitting' and 'Standing' class readings are overlapping.
 
-For detailed code of all the ML models check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/edit/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb)
+For detailed code of all the ML models check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb)
 
 
 ------------------------------------------------------------------------------------------------
