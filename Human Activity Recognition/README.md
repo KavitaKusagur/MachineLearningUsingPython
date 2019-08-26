@@ -100,5 +100,107 @@ For detailed code of this section you can always check the [HumanActivityRecogni
 if some class have too little or too large numbers of values compared to rest of the classes than the dataset is imbalanced.
 **Plot-1**
 <br>
-<img src="https://github.com/srvds/Human-Activity-Recognition/blob/master/plots/plot1.png" height=500 width=700>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot1.png" height=500 width=700>
 <br><br>
+Our data is well balanced (almost) & will prevent bias.
+<br>
+**Plot-2**
+<br>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot1_1.png">
+<br><br>
+In this plot on the X-axis we have subjects(volunteers) 1 to 30. Each color represents an activity
+On the y-axis we have amount of data for each activity by provided by each subject.
+<br>
+From Plot-1 & Plot-2, we can see, our data is equally distributed (almost well Balanced). 
+<br><br>
+#### Variable analysis
+**Plot-3 **
+<br>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot2_2.png">
+The above plot is of tBodyAccMagmean which is mean values of magnitude of acceleration in time space. 
+<br><br>
+**Plot-4 **
+<br>
+Box plot, mean of magnitude of an acceleration 
+<br>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot3_3.png" height=500 width=700>
+<br><br>
+From plot-3 and plot-4 we can see that stationary activities can be linearly separated from activities with motion. 
+<br><br>
+**Plot-5 **
+<br>
+
+Dimensionality reduction using T-distributed Stochastic Neighbor Embedding (t-SNE) to visualize 561 dimension dataset. 
+<br>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot3.png" height=500 width=700>
+<br>
+Sitting and standing are overlapped while other 4 classes can be separated well.
+
+<br><br>
+
+------------------------------------------------------------------------------------
+
+Models
+------
+
+#### Machine Learning Algorithms
+
+scikit-learn is used for all the 6 alogorithms listed below.<br>
+Hyperparameters of all models are tuned by grid search CV<br>
+Models fitted:<br>
+- Logistic Regression
+- Linear Support Vector Classifier(SVC)
+- Radial Basis Function (RBF) kernel SVM classifier 
+- Decision Tree 
+- Random Forest 
+- LGBM Classifier
+
+#### Models Comparisions
+|  model  | Accuracy |  Error|
+|---|---|---|
+| Logistic Regression |  96.27% | 3.733% |
+| Linear SVC | 96.61% |  3.393% |
+|rbf SVM classifier  | 96.27%    |  3.733% |
+|Decision Tree  |       86.43%   |   13.57% |
+|Random Forest |      91.31%    |  8.687% |
+|LGBM Classifier | 95.5%    |   |
+
+
+> **Observing the Top 2 Models**
+
+**Logistic Regression**
+
+**Plot-6**
+
+Normalized confusion matrix for Linear Regression Model
+
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot6_6.png">
+
+Diagonal Value of 1 means 100% accuracy for that class, and 0 means 0% accuracy.<br>
+considering the diagonal elements we have value 1 for rows corresponding to 'Laying' and 'Walking'.<br>
+while 'sitting' has value of only 0.87. In the row 2nd row and 3rd column we have value 0.12 which basically means about 12% readings of the class sitting is misclassified as standing.
+
+**Linear SVC**
+
+**Plot-7**
+
+Normalized confusion matrix for Linear SVC Model
+
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot7_7.png" >
+
+In this model also the diagonal elements, we have value 1 for rows corresponding to 'Laying' and 'Walking'.<br>
+Again row corresponding to 'sitting' has value of only 0.87. In the row 2nd row and 3rd column we have value 0.12 which basically means about 12% readings of the class sitting is misclassified as standing.<br>
+<br>
+It is not a surprise as in the t-sne plot (plot-5) we saw that 'sitting' and 'Standing' class readings are overlapping.
+
+For detailed code of all the ML models check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/edit/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb)
+
+
+------------------------------------------------------------------------------------------------
+
+References:
+-----------
+
+https://en.wikipedia.org/wiki/Gyroscope <br>
+https://scikit-learn.org/stable/supervised_learning.html#supervised-learning <br>
+https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
