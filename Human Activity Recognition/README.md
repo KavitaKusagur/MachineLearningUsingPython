@@ -94,7 +94,7 @@ Readings are divided into a window of 2.56 seconds with 50% overlapping.
 Analysis
 -----------
 
-For detailed code of this section you can always check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/edit/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction)
+For detailed code of this section you can always check the [HumanActivityRecognitionPrediction Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/edit/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb)
 <br>
 ##### Check for Imbalanced class
 if some class have too little or too large numbers of values compared to rest of the classes than the dataset is imbalanced.
@@ -123,7 +123,7 @@ The above plot is of tBodyAccMagmean which is mean values of magnitude of accele
 <br>
 Box plot, mean of magnitude of an acceleration 
 <br>
-<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot3_3.png" height=500 width=700>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot3_3.png">
 <br><br>
 From plot-3 and plot-4 we can see that stationary activities can be linearly separated from activities with motion. 
 <br><br>
@@ -132,7 +132,7 @@ From plot-3 and plot-4 we can see that stationary activities can be linearly sep
 
 Dimensionality reduction using T-distributed Stochastic Neighbor Embedding (t-SNE) to visualize 561 dimension dataset. 
 <br>
-<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot3.png" height=500 width=700>
+<img src="https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/images/plot3.png">
 <br>
 Sitting and standing are overlapped while other 4 classes can be separated well.
 
