@@ -14,6 +14,7 @@ This repository is about different Machine Learning algorithm approaches as per 
 ## Table of Contents
 - [120 Years of Olympics History](#section1)<br>
 - [BigMart Sales Prediction](#section2)<br>
+- [Human Activity Recognition](#section3)<br>
 ___
 <a id=section1></a>
 ### [120 Years of Olympics History](./OlympicsHistory)
@@ -35,5 +36,7 @@ ___
 
 
 ___
+<a id=section2></a>
+### [Human Activity Recognition](./Human Activity Recognition)
 
 ## Projects in execution
