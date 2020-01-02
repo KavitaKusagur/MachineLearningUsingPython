@@ -39,9 +39,16 @@ ___
 <a id=section3></a>
 ### [Human Activity Recognition](./Human Activity Recognition)
 ![image.jpg](images/humanactivity.jpg)<br><br>
-- gfhg
-- cxvvb
-- [Link for the Jupyter notebook](./Human Activity Recognition/HumanActivityRecognitionPrediction.ipynb)
+- Human Activity Recognition (HAR) is a multidisciplinary research field.
+
+- Every modern Smart Phone has a number of sensors. we are interested in two of the sensors Accelerometer and Gyroscope. The data is recorded with the help of sensors.
+
+- To build a model that predicts the human activities such as __Walking,Walking Upstairs,Walking Downstairs,Sitting,Standing,Laying 
+    from the Sensor data of smart phones.
+
+-  An effort to predict the participant data behaviour patterns for activity with smart phones using various algorithms/models, decision making will be made easier for improving existing and upcoming activities.
+
+- [Link for the Jupyter Notebook](https://github.com/KavitaPK/MachineLearningUsingPython/blob/master/Human%20Activity%20Recognition/HumanActivityRecognitionPrediction.ipynb "Link for the Jupyter Notebook")
 
 ___
 
