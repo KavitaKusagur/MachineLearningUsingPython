@@ -36,7 +36,10 @@ ___
 
 
 ___
-<a id=section2></a>
+<a id=section3></a>
 ### [Human Activity Recognition](./Human Activity Recognition)
-
+![image.jpg](images/humanactivity.jpg)<br><br>
+- 
+- 
+- [Link for the Jupyter notebook](./Human Activity Recognition/humanactiv.ipynb)
 ## Projects in execution
